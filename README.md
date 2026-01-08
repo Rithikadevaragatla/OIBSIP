@@ -1,14 +1,48 @@
-# OIBSIP   
-This is a simple NumberGuessing Game built using Java Swings and Applet
-# Game Overview
-This game challenges players to guess a randomly generated number within a certain range. Players receive hints and score points based on their guesses.
-# Features
-* Randomly generates a target number.
-* Hints to guide the player in guessing the correct number.
-* Score points based on number on guesses.
-# How to play
-* Open NumberGuessingGame.java
-* Run it on VScode or using Terminal.
-* Enter a number.
-* Click on 'Guess' button.
-* Follow the hints and keep guessing till you get the right number.
+# Online Reservation System (Java Swing)
+
+A **Java Swing–based desktop application** that simulates an **online railway reservation system**.  
+The system allows passengers to reserve and cancel tickets, while managers can manage train details.
+
+This project demonstrates **GUI development, event handling, file handling, and OOP concepts** in Java.
+
+---
+
+## Features
+
+### Login System
+- Role-based login:
+  - Passenger
+  - Manager
+- Simple authentication using predefined credentials.
+
+### Passenger Module
+- **Ticket Reservation**
+  - Enter passenger details (Name, Age, Gender)
+  - Enter train number and select class type
+  - Provide journey details (Date, From, To)
+  - Auto-generates a **PNR number**
+  - Displays reservation details in a new window
+- **Ticket Cancellation**
+  - Cancel reservation using PNR number
+
+### 🛠️ Manager Module
+- View and manage:
+  - Train Number
+  - Train Name
+- Train data is loaded from an external file (`trains.txt`)
+
+---
+
+## Technologies Used
+
+- Java
+- Java Swing
+- AWT
+- File Handling (BufferedReader, FileReader)
+- Collections (HashMap)
+- CardLayout
+
+---
+
+
+
